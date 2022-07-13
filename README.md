@@ -1,11 +1,12 @@
-## icc22HFL
-The implementation of HFL adopts a Pytorch-based federated learning simulation framework FLSim.
+# FLSim
 
-## About FLSim
+## About
 
 Welcome to **FLSim**, a PyTorch based federated learning simulation framework, created for experimental research in a paper accepted by [IEEE INFOCOM 2020](https://infocom2020.ieee-infocom.org):
 
 [Hao Wang](https://www.haow.ca), Zakhary Kaplan, [Di Niu](https://sites.ualberta.ca/~dniu/Homepage/Home.html), [Baochun Li](http://iqua.ece.toronto.edu/bli/index.html). "Optimizing Federated Learning on Non-IID Data with Reinforcement Learning," in the Proceedings of IEEE INFOCOM, Beijing, China, April 27-30, 2020.
+
+
 
 ## Installation
 

@@ -1,0 +1,35 @@
+{
+    "clients": {
+        "total": 16,
+        "per_round": 16,
+        "label_distribution": "uniform",
+        "do_test": false,
+        "test_partition": 0.2
+    },
+    "data": {
+        "loading": "static",
+        "partition": {
+            "size": 256,
+            "range": [
+                0,
+                200
+            ]
+        },
+        "IID": true
+    },
+    "federated_learning": {
+        "rounds": 200,
+        "target_accuracy": 0.95,
+        "task": "train",
+        "epochs": 10,
+        "global_iteration":3,
+        "batch_size": 16
+    },
+    "model": "MNIST",
+    "paths": {
+        "data": "./data",
+        "model": "./models",
+        "reports": "reports.pkl"
+    },
+    "server": "basic"
+}

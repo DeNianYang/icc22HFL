@@ -1,0 +1,39 @@
+{
+    "clients": {
+        "total":60,
+        "per_round": 60,
+        "label_distribution": "uniform",
+        "do_test": false,
+        "test_partition": 0.2
+    },
+    "data": {
+        "loading": "static",
+        "partition": {
+            "size": 128,
+            "range": [
+                0,
+                200
+            ]
+        },
+        "IID": false,
+        "bias": {
+            "primary": 0.85,
+            "secondary": false
+        }
+    },
+    "federated_learning": {
+        "rounds": 50,
+        "target_accuracy": 0.95,
+        "task": "train",
+        "epochs": 5,
+        "global_iteration":3,
+        "batch_size": 16
+    },
+    "model": "FashionMNIST",
+    "paths": {
+        "data": "./data",
+        "model": "./models",
+        "reports": "reports.pkl"
+    },
+    "server": "basic"
+}
